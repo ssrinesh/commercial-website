@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	margin-bottom:80px;
+	font-family:tahoma;
+	color:gray;
+	background-color:black;
+}
+.page-header{
+	margin-top:0;
+}
+.panel-body{
+	padding-top:0;
+}
+.featuredImg{
+	margin-bottom:15px;
+}
+.jumbotron, .modal-content, .panel{
+	background-color:#202020;
+}
+.images{
+	width:100%;
+}
+.panel{
+	border:gray;
+}
+.list-group-mine .list-group-item{
+	background-color:#202020;
+	color:gray;
+	border:#202020;
+}
+.list-group-mine .list-group-item:hover{
+	background-color:#202020;
+	color:white;
+}
+#logo{
+	height:35px;
+	margin-top:8px;
+}
+.navbar-nav li .dropdown-menu{
+	background-color:#202020;
+}
+.navbar-nav li .dropdown-menu a{
+	color:gray;
+}
+.navbar-nav li .dropdown-menu a:hover{
+	background-color:#202020;
+	color:white;
+}
+

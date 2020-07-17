@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nintendo</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "css/styles.css" rel = "stylesheet">
+</head>
+<body>
+	<div class = "navbar navbar-inverse navbar-static-top">
+		<div class = "container">
+			<a href="index.html" class="navbar-left"><img id = "logo" src="img/nintendo.png"></a>
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+			</button>
+			<div class = "collapse navbar-collapse navHeaderCollapse">
+				<ul class = "nav navbar-nav navbar-right">
+					<li class = "active"><a href = "index.html">Home</a></li>
+					<li><a href = "switchlite.html">Nintendo Switch Lite</a></li>
+					<li><a href = "switch.html">Nintendo Switch</a></li>
+					<li><a href = "joycon.html">Accessories</a></li>
+					<li class = "dropdown">
+						<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
+						<ul class = "dropdown-menu">
+							<li><a href = "https://twitter.com/NintendoAmerica?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+							<li><a href = "https://www.facebook.com/Nintendo/">Facebook</a></li>
+							<li><a href = "https://www.instagram.com/nintendo/?hl=en">Instagram</a></li>
+							<li><a href = "https://www.youtube.com/c/nintendo">YouTube</a></li>
+						</ul>
+					</li>		
+					<li><a href = "#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class = "container">
+		<div class = "jumbotron">
+			<center><h1>Nintendo</h1>
+			<p>(unofficial commercial website)</p>
+			<a href = "https://www.nintendo.com/switch/buy-now/"class = "btn btn-success">Buy Nintendo Switch Products</a></center>
+		</div> 
+	</div>
+	<div id = "carousel" class = "carousel slide">
+		<ol class = "carousel-indicators">
+			<li data-target = "#carousel" data-slide-to = "0" class = "active"></li>
+			<li data-target = "#carousel" data-slide-to = "1"></li>
+			<li data-target = "#carousel" data-slide-to = "2"></li>
+		</ol>
+		<div class = "carousel-inner">
+			<div class = "item active">
+				<img class = "images" src = "img/animalcrossing.jpg" alt = "Animal Crossing: New Horizons" class = "img-responsive">
+				<div class = "carousel-caption">
+					<h3>Animal Crossing: New Horizons</h3>
+				</div>
+			</div>
+			<div class = "item">
+				<img class = "images"src = "img/pokemonswsh.jpg" alt = "Pokemon Sword and Shield" class = "img-responsive">
+				<div class = "carousel-caption">
+					<h3>Pokemon Sword and Shield</h3>
+				</div>
+			</div>
+			<div class = "item">
+				<img class = "images"src = "img/supersmashbros.jpg" alt = "Super Smash Bros. Ultimate" class = "img-responsive">
+				<div class = "carousel-caption">
+					<h3>Super Smash Bros. Ultimate</h3>
+				</div>
+			</div>
+		</div>
+		<a class = "carousel-control left" href = "#carousel" data-slide = "prev">
+			<span class = "icon-prev"></span>
+		</a>
+		<a class = "carousel-control right" href = "#carousel" data-slide = "next">
+			<span class = "icon-next"></span>
+		</a>
+	</div>
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-3">
+				<h3>Animal Crossing: New Horizons</h3>
+				<p>Create, explore, and share your dream island with the newest Animal Crossing game.</p>
+				<a href = "https://www.animal-crossing.com/new-horizons/buy/" class = "btn btn-success">Buy Now</a>
+			</div>
+			<div class = "col-md-3">
+				<h3>Pokemon Sword and Shield</h3>
+				<p>Explore an exciting new region and forge your path to victory with Pokemon Sword and Shield.</p>
+				<a href = "https://swordshield.pokemon.com/en-us/buy-now/" class = "btn btn-success">Buy Now</a>
+			</div>
+			<div class = "col-md-3">
+				<h3>Super Smash Bros. Ultimate</h3>
+				<p>Everyone is here! Fight with all of your favorite Nintendo characters in Super Smash Bros. Ultimate.</p>
+				<a href = "https://smashbros.nintendo.com/buy/" class = "btn btn-success">Buy Now</a>
+			</div>
+			<div class = "col-md-3">
+				<h3>Other Nintendo Switch Games</h3>
+				<p>Find the rest of your favorite Nintendo Switch games here!</p>
+				<a href = "https://www.nintendo.com/games/switch/" class = "btn btn-success">Buy Now</a>
+			</div>
+		</div>
+	</div>
+	<div class = "navbar navbar-inverse navbar-fixed-bottom">
+		<div class = "container">
+			<p class = "navbar-text pull-left">Site Built by Srinesh</p>
+			<a href = "https://www.nintendo.com/" class = "navbar-btn btn-danger btn pull-right">Official Nintendo Website</a>
+		</div>
+	</div>
+	<div class = "modal fade" id = "contact" role = "dialog">
+		<div class = "modal-dialog">
+			<div class = "modal-content">
+				<form class = "form-horizontal">
+					<div class = "modal-header">
+						<h4>Contact Nintendo</h4>
+					</div>
+					<div class = "modal-body">
+						<div class = "form-group">
+							<label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+							<div class = "col-lg-10">
+								<input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+							</div>
+						</div>
+						<div class = "form-group">
+							<label for = "contact-email" class = "col-lg-2 control-label">Email:</label>
+							<div class = "col-lg-10">
+								<input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+							</div>
+						</div>
+						<div class = "form-group">
+							<label for = "contact-msg" class = "col-lg-2 control-label">Message:</label>
+							<div class = "col-lg-10">
+								<textarea class = "form-control" rows = "8"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class = "modal-footer">
+						<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+						<button class = "btn btn-info" type = "submit">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
